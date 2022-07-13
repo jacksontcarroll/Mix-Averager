@@ -5,7 +5,7 @@
 
 ### Progression
 - [ ] Create a web application that can read in files and send them to a Python script utilizing the libraries I need -- likely numpy, potentially others
-- [ ] Get a working prototype: 1 base audio file and 2 mixed, program should phase invert the original, perform an FFT on the resulting sums, average each frequency change, then re-add each frequency to the base audio (FFT the base audio file and sum in the frequency spectrum)
+- [x] Get a working prototype: 1 base audio file and 2 mixed, program should phase invert the original, perform an FFT on the resulting sums, average each frequency change, then re-add each frequency to the base audio (FFT the base audio file and sum in the frequency spectrum)
 - [ ] Improve the prototype to work with any number of mixes
 - [ ] Incorporate discrete STFT for an arbitrary time resolution
 - [ ] Improve web application to allow the user to experiment with different time resolutions
