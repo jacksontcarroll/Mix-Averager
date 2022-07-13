@@ -6,15 +6,17 @@
 		<py-env>
          - numpy
          - matplotlib
+         - soundfile
 		</py-env>
     </head>
 
 	<body>
-		<h1>Let's plot random numbers</h1>
+		<h1>Mix Averager</h1>
 		<div id="plot"></div>
 		<py-script output="plot">
 			import matplotlib.pyplot as plt
 			import numpy as np
+			import soundfile as sf
 
 			x = np.random.randn(1000)
 			y = np.random.randn(1000)
